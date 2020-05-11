@@ -1,3 +1,5 @@
-import Header from "./header"
+import Header from "./Header"
+import Content from "./Content"
+import Head from "./Head"
 
-export { Header }
+export { Content, Header, Head }

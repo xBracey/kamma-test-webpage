@@ -4,4 +4,5 @@ export const COLORS = {
   DARK_GREY: "#979797",
   BLACK: "#000000",
   LOGO: "#34485c",
+  PINK: "#ff1f46",
 }
