@@ -1,5 +1,5 @@
 import React from "react";
-import { Content, Header, Head, Footer } from "../components";
+import { Content, Header, Head, Footer, ReadMore } from "../components";
 import { Background } from "./styles";
 import { GlobalStyle } from "../globalStyles";
 
@@ -41,6 +41,7 @@ export default () => (
         ridiculus. Accumsan tortor posuere ac ut consequat semper viverra. Etiam
         dignissim diam quis enim lobortis scelerisque. To find out more{" "}
         <a href="https://www.kammadata.com/about/">click here</a>.
+        <ReadMore />
       </p>
     </Content>
     <Footer />
