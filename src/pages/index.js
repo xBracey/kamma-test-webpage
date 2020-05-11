@@ -1,7 +1,6 @@
 import React from "react";
 import { Content, Header, Head, Footer, ReadMore } from "../components";
-import { Background } from "./styles";
-import { GlobalStyle } from "../globalStyles";
+import { GlobalStyle, Background } from "../globalStyles";
 
 export default () => (
   <Background>

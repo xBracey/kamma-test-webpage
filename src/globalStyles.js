@@ -37,6 +37,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
+export const Background = styled.div`
+  background-color: ${COLORS.LIGHT_GREY};
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+`;
+
 export const Container = styled.div`
   width: calc(100% - 50px);
   max-width: 1200px;

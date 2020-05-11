@@ -4,6 +4,6 @@ import logo from "../../assets/logo.svg";
 
 export default () => (
   <Header>
-    <Logo src={logo} />
+    <Logo src={logo} width={160} />
   </Header>
 );
