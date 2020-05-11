@@ -1,5 +1,5 @@
-import styled, { createGlobalStyle, css } from "styled-components"
-import { COLORS } from "./constants"
+import styled, { createGlobalStyle, css } from "styled-components";
+import { COLORS } from "./constants";
 
 export const GlobalStyle = createGlobalStyle`
     @import url(https://fonts.googleapis.com/css2?family=Roboto);
@@ -35,15 +35,16 @@ export const GlobalStyle = createGlobalStyle`
     a {
         color: ${COLORS.PINK}
     }
-`
+`;
 
 export const Container = styled.div`
   width: calc(100% - 50px);
-  max-width: 1000px;
-`
+  max-width: 1200px;
+  padding: 0px 25px;
+`;
 
 export const mobileMixin = rules => css`
   @media (max-width: 900px) {
     ${rules}
   }
-`
+`;

@@ -1,12 +1,12 @@
-import React from "react"
-import { Content, Header, Head } from "../components"
-import { Background } from "./styles"
-import { GlobalStyle } from "../globalStyles"
+import React from "react";
+import { Content, Header, Head, Footer } from "../components";
+import { Background } from "./styles";
+import { GlobalStyle } from "../globalStyles";
 
 export default () => (
   <Background>
     <GlobalStyle />
-    <Head />
+    <Head title={"Home Page"} />
     <Header />
     <Content>
       <h1>Kamma Holding Text</h1>
@@ -43,5 +43,6 @@ export default () => (
         <a href="https://www.kammadata.com/about/">click here</a>.
       </p>
     </Content>
+    <Footer />
   </Background>
-)
+);

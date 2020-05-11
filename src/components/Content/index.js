@@ -1,4 +1,4 @@
-import React from "react"
-import { Content } from "./styles"
+import React from "react";
+import { Content } from "./styles";
 
-export default ({ children }) => <Content>{children}</Content>
+export default ({ children }) => <Content>{children}</Content>;
